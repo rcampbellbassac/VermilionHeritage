@@ -1,0 +1,12 @@
+{
+ "shaping_corpus_cases": 21,
+ "notdef_in_corpus": 0,
+ "required_present": "653/653",
+ "recommended_present": "607/625",
+ "empty_visible_required": [],
+ "coverage_preflight_pass": true,
+ "missing_layout_scripts": {
+  "GSUB": [],
+  "GPOS": []
+ }
+}

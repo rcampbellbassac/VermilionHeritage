@@ -1,0 +1,39 @@
+{
+ "name": "Vermilion Heritage",
+ "slug": "VermilionHeritage",
+ "version": "0.010",
+ "bases": {
+  "lao": "lao-looped",
+  "thai": "thai-looped",
+  "khmer": "khmer",
+  "latin": "latin"
+ },
+ "wght": 100,
+ "wdth": 74.8,
+ "scale": 0.9715,
+ "recipe": [
+  {
+   "op": "wobble",
+   "amp": 3,
+   "wave": 280
+  },
+  {
+   "op": "nib",
+   "shape": "ellipse",
+   "w": 70.0,
+   "min_hole": 1200,
+   "h": 56.0,
+   "angle": 0
+  }
+ ],
+ "fit": {
+  "sign_stem_over_height": 0.1532,
+  "sign_width_over_height": 0.6667,
+  "base_height": 562,
+  "base_stem": 25,
+  "nib_w": 70.0
+ },
+ "sidebearing": 40,
+ "baseline_snap": [],
+ "copyright": "Copyright 2026 Robert Martin Campbell. Lao key letters traced from a hand-painted sign photographed in Laos (2019); other letters derived from Noto Sans Lao, Thai, Khmer and Noto Sans (Copyright 2022 The Noto Project Authors)."
+}

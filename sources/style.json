@@ -1,0 +1,7 @@
+{"name": "Vermilion Heritage", "slug": "VermilionHeritage", "ink": "a", "body": "ບ",
+ "sign_text": "ມີເບ້ຍດອກໄມ້ຂາຍ ຫຼາຍຊະນິດ",
+ "notes": "Tall, narrow heritage sign-painting with moderate contrast and small carved curls.",
+ "labels": {"ມ": [0], "ເ": [2], "ບ": [3], "້": [4], "ຍ": [5], "ດ": [6], "ອ": [7], "ຂ": [12], "າ": [13],
+            "ຫ": [15], "ຼ": [16], "ຊ": [19], "ະ": [20, 21], "ນ": [22], "ິ": [23]},
+ "nib": {"shape": "ellipse", "aspect": 0.8, "angle": 0},
+ "effects": [{"op": "wobble", "amp": 3, "wave": 280}]}

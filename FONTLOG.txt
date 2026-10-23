@@ -1,0 +1,18 @@
+FONTLOG for Vermilion Heritage
+
+Vermilion Heritage (ດອກໄມ້) is a display font for Lao, Thai, Khmer and Latin drawn from a hand-painted
+sign photographed in Laos in 2019. Tall, narrow heritage sign-painting with moderate contrast and small carved curls.
+
+How it was made
+- Lao key letters (ມ ເ ບ ້ ຍ ດ ອ ຂ າ ຫ ຼ ຊ ະ ນ ິ) were traced from the photograph (scripts/segment.py, scripts/trace.py).
+- The other letters were generated on the Noto designs with a simulated brush whose size and the font's width were
+  measured from the traced letters (scripts/auto.py), then merged with the traced letters (scripts/hybrid.py).
+- Generated letters are drafts to be redrawn toward the traced ones before 1.0.
+
+ChangeLog
+- 0.100 (2026-10-23): first public beta.
+
+Acknowledgements
+- Robert Martin Campbell: photographs, direction.
+- Claude (Anthropic): tracing, generation and engineering.
+- Noto fonts by the Noto Project Authors (SIL OFL 1.1).

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vermilion Heritage ດອກໄມ້</title>
+<meta name="description" content="Vermilion Heritage: a free display font for Lao, Thai, Khmer and English, drawn from a hand-painted sign photographed in Laos. Beta, SIL OFL.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:"F";src:url("fonts/VermilionHeritage-Regular.woff2") format("woff2");font-display:swap}
+:root{--paint:#af746a;--on:#fbfaf5;--paper:#f5f4ef;--card:#fff;--ink:#17171a;--muted:#5f5f68;--line:#d9d7cf}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#141416;--card:#1d1d21;--ink:#efeee9;--muted:#a3a29b;--line:#34343a}}
+:root[data-theme="dark"]{--paper:#141416;--card:#1d1d21;--ink:#efeee9;--muted:#a3a29b;--line:#34343a}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI","Noto Sans Lao","Noto Sans Thai","Noto Sans Khmer",sans-serif}
+a{color:inherit}.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{background:var(--paint);color:var(--on)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
+.top a{color:var(--on);font-size:15px}
+.langs{display:flex;gap:4px}.langs button{font:inherit;font-size:14px;background:transparent;color:var(--on);border:1px solid rgba(255,255,255,.55);padding:3px 10px;cursor:pointer}
+.langs button[aria-pressed=true]{background:var(--on);color:var(--paint)}
+h1{font:clamp(54px,11vw,128px)/1.3 "F",sans-serif;margin:16px 0 0;overflow-wrap:anywhere}
+.native{font:clamp(34px,6vw,64px)/1.5 "F",sans-serif;margin:0}
+.lede{max-width:60ch;font-size:19px;margin:10px 0 0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:22px 0 30px}
+.btn{background:var(--on);color:var(--paint);text-decoration:none;font-weight:700;padding:11px 20px}
+.beta{font-size:15px;opacity:.92;max-width:52ch}
+section{padding:34px 0 6px}h2{font-size:22px;margin:0 0 12px}
+.photo{width:100%;height:auto;display:block;border:1px solid var(--line)}
+.cap{color:var(--muted);font-size:15px}
+.traced{font:clamp(48px,9vw,96px)/1.5 "F",sans-serif;margin:0;letter-spacing:.06em;overflow-wrap:anywhere}
+.lines p{font:clamp(30px,5.5vw,58px)/1.55 "F",sans-serif;margin:0 0 6px;overflow-wrap:anywhere;border-bottom:1px solid var(--line)}
+textarea{width:100%;font:clamp(32px,6vw,60px)/1.5 "F",sans-serif;padding:10px;border:2px solid var(--ink);background:var(--card);color:var(--ink);resize:vertical}
+.grid{font:42px/1.7 "F",sans-serif;overflow-wrap:anywhere;letter-spacing:.12em}
+button:focus-visible,a:focus-visible,textarea:focus-visible{outline:3px solid var(--paint);outline-offset:2px}
+footer{color:var(--muted);font-size:15px;padding:40px 0 60px;border-top:1px solid var(--line);margin-top:40px}
+.mt{font-style:italic}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top"><a href="https://rcampbellbassac.github.io/fonts/" data-s="catalog"></a>
+    <div class="langs" role="group" aria-label="Language">
+      <button data-l="en" lang="en">English</button><button data-l="lo" lang="lo">ລາວ</button><button data-l="th" lang="th">ไทย</button><button data-l="km" lang="km">ខ្មែរ</button>
+    </div></div>
+  <h1>Vermilion Heritage</h1>
+  <p class="native" lang="lo">ດອກໄມ້</p>
+  <p class="lede" data-s="lede"></p>
+  <div class="cta"><a class="btn" href="https://github.com/rcampbellbassac/VermilionHeritage/releases/latest/download/VermilionHeritage.zip" data-s="download"></a>
+    <span class="beta" data-s="beta"></span></div>
+</div></header>
+<main class="wrap">
+  <section><h2 data-s="sign_h"></h2>
+    <img class="photo" src="photo.jpg" alt="The hand-painted sign in Laos this font was drawn from" loading="lazy" width="1400">
+    <p class="cap" lang="lo">ມີເບ້ຍດອກໄມ້ຂາຍ ຫຼາຍຊະນິດ</p></section>
+  <section><h2 data-s="traced_h"></h2><p class=traced lang=lo>ມ ເ ບ ◌້ ຍ ດ ອ ຂ າ ຫ ◌ຼ ຊ ະ ນ ◌ິ</p><p data-s=traced_p></p></section>
+  <section class="lines"><h2 data-s="scripts_h"></h2>
+    <p lang="lo">ສະບາຍດີ ນ້ຳຕົກຕາດ ປະເທດລາວ ໐໑໒໓໔໕໖໗໘໙</p>
+    <p lang="th">สวัสดี น้ำตก ประเทศไทย ๐๑๒๓๔๕๖๗๘๙</p>
+    <p lang="km">សួស្តី កម្ពុជា ទឹកធ្លាក់ ០១២៣៤៥៦៧៨៩</p>
+    <p lang="en">Garden · Waterfall 0123456789 ₭ ฿ ៛</p></section>
+  <section><h2 data-s="try_h"></h2><textarea rows="2" aria-label="Type to try the font" data-ph="try_ph">ສະບາຍດີ สวัสดี សួស្តី Hello</textarea></section>
+  <section><p class="grid" lang="lo">ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ໜ ໝ ຫຼ</p></section>
+  <section><h2 data-s="install_h"></h2><p data-s="install_p"></p></section>
+  <footer><p data-s="license_p"></p>
+    <p>Designed by Robert Martin Campbell. Lao key letters traced from a sign photographed in Laos (2019); other letters derived from the Noto fonts (Noto Project Authors, SIL OFL).
+    <a href="https://github.com/rcampbellbassac/VermilionHeritage" data-s="source"></a></p>
+    <p class="mt" data-s="mt_note"></p></footer>
+</main>
+<script>
+const S = {"en": {"lede": "A free display font for Lao, Thai, Khmer and English, drawn from a hand-painted sign photographed in Laos.", "beta": "Beta: some letters are still drafts and will be redrawn before version 1.0.", "download": "Download the font", "sign_h": "The sign it comes from", "traced_h": "Letters traced from the sign", "traced_p": "These letters were traced from the photograph. The rest of the alphabet, and Thai, Khmer and Latin, follow their stroke and proportions.", "generated_p": "No letter on this sign could be separated from its painted ornament, so the whole alphabet follows the proportions measured from the photograph.", "scripts_h": "Four scripts", "try_h": "Try it", "try_ph": "Type here", "install_h": "Install", "install_p": "Unzip the download, open the TTF file and click Install. For websites, use the WOFF2 file.", "license_p": "Free to use, share and change under the SIL Open Font License 1.1.", "catalog": "All our fonts", "source": "Source on GitHub", "mt_note": ""}, "lo": {"lede": "ຟອນສະແດງຟຣີ ສຳລັບພາສາລາວ, ໄທ, ຂະແມ ແລະ ອັງກິດ, ອອກແບບຈາກປ້າຍທາສີດ້ວຍມື ທີ່ຖ່າຍຮູບໃນປະເທດລາວ.", "beta": "ເບຕ້າ: ຕົວອັກສອນບາງຕົວຍັງເປັນຮ່າງ ແລະ ຈະຖືກແຕ້ມໃໝ່ກ່ອນເວີຊັນ 1.0.", "download": "ດາວໂຫລດຟອນ", "sign_h": "ປ້າຍຕົ້ນສະບັບ", "traced_h": "ຕົວອັກສອນທີ່ແຕ້ມຕາມປ້າຍ", "traced_p": "ຕົວອັກສອນເຫຼົ່ານີ້ແຕ້ມຕາມຮູບຖ່າຍ. ຕົວອັກສອນອື່ນໆ ແລະ ອັກສອນໄທ, ຂະແມ ແລະ ລາຕິນ ແມ່ນອອກແບບໃຫ້ເຂົ້າກັບເສັ້ນ ແລະ ສັດສ່ວນຂອງມັນ.", "generated_p": "ຕົວອັກສອນໃນປ້າຍນີ້ຕິດກັບລວດລາຍທີ່ທາສີ ຈຶ່ງບໍ່ສາມາດແຍກອອກໄດ້. ຕົວອັກສອນທັງໝົດຈຶ່ງອອກແບບຕາມສັດສ່ວນທີ່ວັດຈາກຮູບຖ່າຍ.", "scripts_h": "ສີ່ອັກສອນ", "try_h": "ລອງໃຊ້", "try_ph": "ພິມຢູ່ນີ້", "install_h": "ວິທີຕິດຕັ້ງ", "install_p": "ແຕກໄຟລ໌ທີ່ດາວໂຫລດ, ເປີດໄຟລ໌ TTF ແລ້ວກົດ Install. ສຳລັບເວັບໄຊທ໌ ໃຊ້ໄຟລ໌ WOFF2.", "license_p": "ໃຊ້, ແບ່ງປັນ ແລະ ດັດແປງໄດ້ຟຣີ ພາຍໃຕ້ SIL Open Font License 1.1.", "catalog": "ຟອນທັງໝົດຂອງພວກເຮົາ", "source": "ໂຄດຕົ້ນສະບັບໃນ GitHub", "mt_note": "ໜ້ານີ້ແປໂດຍຜູ້ຊ່ວຍ AI ແລະ ລໍຖ້າການກວດກາຈາກເຈົ້າຂອງພາສາ."}, "th": {"lede": "ฟอนต์ดิสเพลย์ฟรีสำหรับภาษาลาว ไทย เขมร และอังกฤษ ออกแบบจากป้ายเขียนมือที่ถ่ายภาพในประเทศลาว", "beta": "เบต้า: ตัวอักษรบางตัวยังเป็นฉบับร่าง และจะวาดใหม่ก่อนเวอร์ชัน 1.0", "download": "ดาวน์โหลดฟอนต์", "sign_h": "ป้ายต้นฉบับ", "traced_h": "ตัวอักษรที่ลอกลายจากป้าย", "traced_p": "ตัวอักษรเหล่านี้ลอกลายจากภาพถ่าย ตัวอักษรอื่น ๆ รวมทั้งอักษรไทย เขมร และละติน ออกแบบตามเส้นและสัดส่วนของตัวอักษรเหล่านี้", "generated_p": "ตัวอักษรบนป้ายนี้ติดกับลวดลายที่วาดไว้จนแยกออกไม่ได้ ตัวอักษรทั้งหมดจึงออกแบบตามสัดส่วนที่วัดจากภาพถ่าย", "scripts_h": "สี่อักษร", "try_h": "ลองพิมพ์", "try_ph": "พิมพ์ที่นี่", "install_h": "วิธีติดตั้ง", "install_p": "แตกไฟล์ที่ดาวน์โหลด เปิดไฟล์ TTF แล้วกด Install สำหรับเว็บไซต์ให้ใช้ไฟล์ WOFF2", "license_p": "ใช้ แบ่งปัน และดัดแปลงได้ฟรีภายใต้สัญญาอนุญาต SIL Open Font License 1.1", "catalog": "ฟอนต์ทั้งหมดของเรา", "source": "ซอร์สโค้ดบน GitHub", "mt_note": "หน้านี้แปลโดยผู้ช่วย AI และรอการตรวจทานจากเจ้าของภาษา"}, "km": {"lede": "ពុម្ពអក្សរតុបតែងឥតគិតថ្លៃ សម្រាប់ភាសាឡាវ ថៃ ខ្មែរ និងអង់គ្លេស រចនាចេញពីផ្លាកសញ្ញាគូរដោយដៃ ដែលបានថតនៅប្រទេសឡាវ។", "beta": "បេតា៖ អក្សរខ្លះនៅជាសេចក្តីព្រាង ហើយនឹងត្រូវគូរឡើងវិញមុនកំណែ 1.0។", "download": "ទាញយកពុម្ពអក្សរ", "sign_h": "ផ្លាកសញ្ញាដើម", "traced_h": "អក្សរដែលគូរតាមផ្លាកសញ្ញា", "traced_p": "អក្សរទាំងនេះត្រូវបានគូរតាមរូបថត។ អក្សរផ្សេងទៀត ព្រមទាំងអក្សរថៃ ខ្មែរ និងឡាតាំង ត្រូវបានរចនាតាមខ្សែ និងសមាមាត្ររបស់វា។", "generated_p": "អក្សរនៅលើផ្លាកសញ្ញានេះជាប់នឹងលំនាំគំនូរ មិនអាចញែកចេញបានទេ ដូច្នេះអក្សរទាំងអស់ត្រូវបានរចនាតាមសមាមាត្រដែលវាស់ពីរូបថត។", "scripts_h": "អក្សរបួនប្រភេទ", "try_h": "សាកល្បង", "try_ph": "វាយនៅទីនេះ", "install_h": "របៀបដំឡើង", "install_p": "ពន្លាឯកសារដែលបានទាញយក បើកឯកសារ TTF រួចចុច Install។ សម្រាប់គេហទំព័រ សូមប្រើឯកសារ WOFF2។", "license_p": "អាចប្រើ ចែករំលែក និងកែប្រែដោយឥតគិតថ្លៃ ក្រោមអាជ្ញាប័ណ្ណ SIL Open Font License 1.1។", "catalog": "ពុម្ពអក្សរទាំងអស់របស់យើង", "source": "កូដប្រភពនៅលើ GitHub", "mt_note": "ទំព័រនេះត្រូវបានបកប្រែដោយជំនួយការ AI ហើយកំពុងរង់ចាំការពិនិត្យពីអ្នកនិយាយភាសាកំណើត។"}};
+function setLang(l) {
+  if (!S[l]) l = "en";
+  document.documentElement.lang = l;
+  document.querySelectorAll("[data-s]").forEach(e => { e.textContent = S[l][e.dataset.s] || S.en[e.dataset.s] || ""; });
+  document.querySelectorAll("[data-ph]").forEach(e => e.placeholder = S[l][e.dataset.ph]);
+  document.querySelectorAll("[data-l]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.l === l)));
+  try { localStorage.setItem("lang", l); } catch (e) {}
+  const u = new URL(location); u.searchParams.set("lang", l); history.replaceState(null, "", u);
+}
+document.querySelectorAll("[data-l]").forEach(b => b.onclick = () => setLang(b.dataset.l));
+let start = new URLSearchParams(location.search).get("lang");
+try { start = start || localStorage.getItem("lang"); } catch (e) {}
+setLang(start || "en");
+</script>
+</body>
+</html>
